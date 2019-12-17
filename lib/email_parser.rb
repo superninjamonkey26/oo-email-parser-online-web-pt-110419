@@ -10,6 +10,6 @@ class EmailAddressParser
     @emails = emails
   end
   def parse
-    puts splitEmail = emails.split.collect {|address| address.split(" ")
+    puts splitEmail = emails.split.collect {|address| address.split(" ")}
   end
 end
