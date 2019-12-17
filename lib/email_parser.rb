@@ -10,6 +10,6 @@ class EmailAddressParser
     @emails = emails
   end
   def emails
-    @emails
+    @@emails
   end
 end
